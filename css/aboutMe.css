@@ -25,11 +25,44 @@ h1 {
 
 p{
   text-align:center;
-  color:white;
-  font-size: 19px;
+  font-size: 20px;
+
+}
+.FunFact1 {
+    background-color: #eeeee9;
+    padding: 4% 25%;
+}
+
+div {
+  display: block;
+
 }
 
 
+
+.DetailOfAc{
+  height: 10%;
+}
+.box{
+  background: gray;
+  display:inline-block;
+  width: 22%;
+  padding-bottom: 10px;
+}
+h2{
+  font-size: 35px;
+  margin-top: 20px;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: -0.02em;
+  margin-top: 4%;
+}
+
+.Award{
+  text-align:center;
+  padding-bottom: 10px;
+}
 
 .CollectionOfSkills{
   margin-top: 40px;
@@ -39,12 +72,16 @@ p{
 .ContentForSkills{
   max-width: 100%;
   visibility:hidden;
-}
-
-.ContentForSkills{
   margin-top:0px;
   margin-bottom: 0px;
+  -webkit-filter: drop-shadow(4px 6px 0 rgba(0, 0, 0, 0.2));
+  filter: drop-shadow(4px 6px 0 rgba(0, 0, 0, 0.2));
+  font-weight: bold;
+  color:white;
 }
+
+
+
 .AboutMeText {
   font-size: 20px;
   font-weight: 300;
@@ -55,17 +92,19 @@ p{
 }
 
 .MoveUp:hover{
-      -moz-transform: translate(0px, -20px);
-      -ms-transform: translate(0px, -20px);
-      -o-transform: translate(0px, -20px);
-      -webkit-transform: translate(0px, -20px);
-      transform: translate(0px, -20px);
+      -moz-transform: translate(0px, -30px);
+      -ms-transform: translate(0px, -30px);
+      -o-transform: translate(0px, -30px);
+      -webkit-transform: translate(0px, -30px);
+      transform: translate(0px, -30px);
+
 }
 
 .MoveUp:hover ~ .ContentForSkills{
   position: relative;
-  top: -20px;
+  top: -30px;
   visibility:visible;
+
 }
 
 /*

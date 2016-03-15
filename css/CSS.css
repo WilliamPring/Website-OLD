@@ -55,7 +55,6 @@ and shift the content in body
 
 .menu-open{
 	left:261px;
-	background-color: rgba(0,0,0,.5);
 }
 
 /* show to sidebar */
@@ -66,9 +65,9 @@ and shift the content in body
 
 /* Transistion */
 .menu-side, .menu {
-	 -webkit-transition : left 0.3s ease;
-	 -moz-transition : left 0.3s ease;
-	 transition : left 0.3s ease;
+	 -webkit-transition : left 0.6s ease;
+	 -moz-transition : left 0.6s ease;
+	 transition : left 0.6s ease;
 }
 
 
@@ -91,8 +90,8 @@ and shift the content in body
 }
 
 @keyframes anim {
-    from {transform: rotateY(0deg);}
-    to {transform: rotateY(360deg);}
+    from {transform: rotateY(360deg);}
+    to {transform: rotateY(0deg);}
 }
 
 
