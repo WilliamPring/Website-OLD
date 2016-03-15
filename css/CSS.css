@@ -14,10 +14,8 @@
 	font-family: 'Open Sans', serif;
 	text-align: center;
 }
-/*
-Including an image of my logo on the nav bar
-ceneter and no repete
-*/
+
+
 #LogoForNavBar
 {
 	margin-left: auto;
@@ -27,7 +25,10 @@ ceneter and no repete
 	width: 130px;
 	height: 112px;
 	margin-top: 35px;
+	-webkit-animation: anim 8s infinite linear;
+		animation: anim 8s infinite linear;
 }
+
 
 #LogoForHomePage
 {
@@ -37,8 +38,7 @@ ceneter and no repete
    	height: 224px;
 		background-image: url(../res/Logo.png);
 		margin-top: 40px;
-		-webkit-transition: -webkit-transform .8s ease-in-out;
-		transition: transform .8s ease-in-out;
+		transition: transform 1.5s cubic-bezier(0.51, -0.37, 1, -0.15);
 }
 #LogoForHomePage:hover {
   -webkit-transform: rotate(360deg);
@@ -85,8 +85,21 @@ and shift the content in body
 	padding:10px;
 }
 
+@-webkit-keyframes anim {
+    from {-webkit-transform: rotateY(0deg);}
+    to {-webkit-transform: rotateY(360deg);}
+}
+
+@keyframes anim {
+    from {transform: rotateY(0deg);}
+    to {transform: rotateY(360deg);}
+}
+
+
+
 body {
 	background: #009688;
+	z-index: 1;
  }
 .IconRow{
 	width:100%;

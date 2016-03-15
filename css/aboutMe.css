@@ -1,0 +1,73 @@
+h1 {
+  text-align: center;
+  font-size:370%;
+  color: white;
+}
+
+.ImgAndrDev{
+  display: inline-block;
+  margin-right: 20px;
+}
+.ImgDesign{
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.ImgSoftDev{
+  display: inline-block;
+  margin-right: 20px;
+}
+.ImgWebDev{
+  display: inline-block;
+  margin-right: 20px;
+}
+
+
+p{
+  text-align:center;
+  color:white;
+  font-size: 19px;
+}
+
+
+
+.CollectionOfSkills{
+  margin-top: 40px;
+  text-align:center;
+  width: 100%;
+}
+.ContentForSkills{
+  max-width: 100%;
+  visibility:hidden;
+}
+
+.ContentForSkills{
+  margin-top:0px;
+  margin-bottom: 0px;
+}
+.AboutMeText {
+  font-size: 20px;
+  font-weight: 300;
+  margin: auto;
+  text-align: center;
+  width: 980px;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.MoveUp:hover{
+      -moz-transform: translate(0px, -20px);
+      -ms-transform: translate(0px, -20px);
+      -o-transform: translate(0px, -20px);
+      -webkit-transform: translate(0px, -20px);
+      transform: translate(0px, -20px);
+}
+
+.MoveUp:hover ~ .ContentForSkills{
+  position: relative;
+  top: -20px;
+  visibility:visible;
+}
+
+/*
+http://www.andrewreifman.com/#/about
+*/
