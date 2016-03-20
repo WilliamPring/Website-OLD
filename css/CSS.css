@@ -60,7 +60,7 @@ and shift the content in body
 /* show to sidebar */
 .menu-open .menu-side {
 	left:0;
-
+	height: 100%;
 }
 
 /* Transistion */
@@ -79,8 +79,8 @@ and shift the content in body
 	position: fixed;
 	top:0;
 	left: -261px;
-	width: 240px;
 	height: 100%;
+	width: 240px;
 	padding:10px;
 }
 
@@ -94,16 +94,21 @@ and shift the content in body
     to {transform: rotateY(0deg);}
 }
 
-
+.centerFirstNavBar{
+	text-align:center;
+	padding-bottom: 3px;
+	padding-top: 30px;
+}
+.IconHori{
+	display:inline-block;
+	 padding:5px;
+}
 
 body {
 	background: #009688;
 	z-index: 1;
  }
-.IconRow{
-	width:100%;
-	margin-top: 12px;
-}
+
 #icon
 {
 	margin-left: auto;
@@ -153,10 +158,10 @@ li {
 	  z-index:10000000000000;
 }
 hr {
-    display: block;
-    height: 2px;
-    border: 0;
-    border-top: 2px solid #607D8B;
-    margin: 1em 0;
-    padding: 0;
+  display: block;
+  height: 2px;
+  border: 0;
+  border-top: 2px solid #607D8B;
+  margin: 1em 0;
+  padding: 0;
 }

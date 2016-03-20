@@ -1,53 +1,56 @@
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<title>William Pring</title>
-		<link rel="shortcut icon" type="image/png" href="res/XSmallLogo.png">
-		<!--Checking different devices-->
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" type="text/css" href="css/CSS.css" />
-	</head>
-	<!--allow html content to get push to the right-->
-	<body class = "menu">
-		<header>
-			<!--Menu Toogle-->
-			<a herf="#" class ="menu-toggle">&#9776;</a>
-			<nav class = "menu-side">
-				<div id="LogoForNavBar">&nbsp;</div>
-				<table class = "IconRow">
-					<div class="link">
-				  <tr class>
-				    <td><a href="https://github.com/WilliamPring" id = "icon" class="fa fa-github-square fa-2x" style="color:#111111"></a></td>
-				    <td><a href="https://ca.linkedin.com/in/william-pring-6a273aa1" id = "icon" class="fa fa-linkedin fa-2x" style="color:#007bb6"></a></td>
-				    <td><a href="mailto:wp@williampring.com" id = "icon" class="fa fa-envelope-o fa-2x" style="color:#616161"></a></td>
-						<td><a href="res/Resume.pdf" id = "icon" class="fa fa-paperclip fa-2x" style="color:#388E3C"></a></td>
-				  </tr>
-				</div>
-				</table>
-				<hr/>
-				<ul>
-				  <a href="http://williampring.com"><li><i class="fa fa-home fa-2x"></i>Home</li></a>
-					<a href="http://williampring.com/aboutme/"><li><i class="fa fa-user fa-2x"></i>About Me</li></a>
-				  <li><i class="fa fa-folder-o fa-2x"></i>Portfolio</li>
-				  <li><i class="fa fa-file-code-o fa-2x"></i>Tutorials</li>
-				</ul>
-	</nav>
-		</header>
-		<div id="Title">Welcome</div>
-		<div id="SubTitle">To My Site!</div>
-		<div id="LogoForHomePage">&nbsp;</div>
-
-
-			<script src = "https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-<script src="https://use.fonticons.com/f1345c0b.js"></script>				<script>
-				(function () {
-						var body = $('body');
-						$('.menu-toggle').bind('click', function() {
-							body.toggleClass('menu-open');
-							$("navigation").show();
-							return false;
-						});
-				})();
-			</script>
-	</body>
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/app.css" />
+    <link rel="stylesheet" type="text/css" href="css/CSS.css" />
+  </head>
+  <body class = "menu" data-equalizer>
+  		<header>
+  			<!--Menu Toogle-->
+  			<a herf="#" class ="menu-toggle">&#9776;</a>
+        <ul class="side-nav">
+          <nav class = "menu-side">
+    				<div id="LogoForNavBar">&nbsp;</div>
+            <div class = "centerFirstNavBar">
+    				    <div class="IconHori"><a href="https://github.com/WilliamPring" id = "icon" class="fa fa-github-square fa-2x" style="color:#111111"></a></div>
+    				    <div class="IconHori"><a href="https://ca.linkedin.com/in/william-pring-6a273aa1" id = "icon" class="fa fa-linkedin fa-2x" style="color:#007bb6"></a></div>
+    				    <div class="IconHori"><a href="mailto:wp@williampring.com" id = "icon" class="fa fa-envelope-o fa-2x" style="color:#616161"></a></div>
+    						<div class="IconHori"><a href="res/Resume.pdf" id = "icon" class="fa fa-paperclip fa-2x" style="color:#388E3C"></a></div>
+            </div>
+            <hr/>
+              <li><a href="http://williampring.com">Home</a></li>
+              <li><a href="http://williampring.com/aboutme/">About Me</a></li>
+              <li><a href="#">Portfolio</a></li>
+              <li><a href="#">Blog</a></li>
+            </ul>
+    	</nav>
+  		</header>
+      <div class="row">
+      <div class="large-10 large-centered columns text-center">
+    		<div id="Title">Welcome</div>
+    		<div id="SubTitle">To My Site!</div>
+    		    <div id="LogoForHomePage">&nbsp;</div>
+      </div>
+      </div>
+  			<script src = "https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  <script src="https://use.fonticons.com/f1345c0b.js"></script>				<script>
+  				(function () {
+  						var body = $('body');
+  						$('.menu-toggle').bind('click', function() {
+  							body.toggleClass('menu-open');
+  							$("navigation").show();
+  							return false;
+  						});
+  				})();
+  			</script>
+        <script src="js/vendor/jquery.min.js"></script>
+        <script src="js/vendor/what-input.min.js"></script>
+        <script src="js/foundation.min.js"></script>
+        <script src="js/app.js"></script>
+      </div>
+  	</body>
 </html>
