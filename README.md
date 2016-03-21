@@ -1,6 +1,7 @@
 # My Website
 
-##Technology: Foundation, Compass, Node.js, Bower, Grunt,
+##Technology: Compass, Node.js, Bower, Grunt
+##Framework: Foundation
 ##Database: MySQL
 ##Server:Ubuntu
 
