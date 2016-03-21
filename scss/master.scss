@@ -1,0 +1,71 @@
+#Title
+{
+	color: white;
+	font-size: 400%;
+	font-family: 'Abril Fatface', serif;
+	text-align: center;
+	margin-top: 9%;
+}
+
+#SubTitle
+{
+	color: white;
+	font-size: 350%;
+	font-family: 'Open Sans', serif;
+	text-align: center;
+}
+
+
+#LogoForHomePage
+{
+		margin-left: auto;
+	 	margin-right: auto;
+		width: 260px;
+   	height: 224px;
+		background-image: url(../res/Logo.png);
+		margin-top: 40px;
+		transition: transform 1.5s cubic-bezier(0.51, -0.37, 1, -0.15);
+			&:hover {
+	  -webkit-transform: rotate(360deg);
+	  transform: rotate(360deg);
+	}
+}
+
+
+@-webkit-keyframes anim {
+    from {-webkit-transform: rotateY(0deg);}
+    to {-webkit-transform: rotateY(360deg);}
+}
+
+@keyframes anim {
+    from {transform: rotateY(360deg);}
+    to {transform: rotateY(0deg);}
+}
+
+
+body {
+	background: #009688;
+	z-index: 1;
+ }
+
+
+
+a {
+    text-decoration: none;
+}
+i {
+	color:#00796B;
+	padding-right: 22px;
+}
+
+
+
+
+hr {
+  display: block;
+  height: 2px;
+  border: 0;
+  border-top: 2px solid #607D8B;
+  margin: 1em 0;
+  padding: 0;
+}

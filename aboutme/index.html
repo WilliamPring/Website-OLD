@@ -1,118 +1,123 @@
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<title>William Pring</title>
-		<link rel="shortcut icon" type="image/png" href="../res/XSmallLogo.png">
-		<!--Checking different devices-->
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="../css/foundation.css" />
-		<link rel="stylesheet" href="../css/app.css" />
-		<link rel="stylesheet" type="text/css" href="../css/CSS.css" />
-		<link rel="stylesheet" type="text/css" href="../css/aboutMe.css" />
-	</head>
-	<!--allow html content to get push to the right-->
-	<body class = "menu">
-		<header>
-			<!--Menu Toogle-->
-			<a herf="#" class ="menu-toggle">&#9776;</a>
-			<ul class="side-nav">
-				<nav class = "menu-side">
-					<div id="LogoForNavBar">&nbsp;</div>
-					<div class = "centerFirstNavBar">
-							<div class="IconHori"><a href="https://github.com/WilliamPring" id = "icon" class="fa fa-github-square fa-2x" style="color:#111111"></a></div>
-							<div class="IconHori"><a href="https://ca.linkedin.com/in/william-pring-6a273aa1" id = "icon" class="fa fa-linkedin fa-2x" style="color:#007bb6"></a></div>
-							<div class="IconHori"><a href="mailto:wp@williampring.com" id = "icon" class="fa fa-envelope-o fa-2x" style="color:#616161"></a></div>
-							<div class="IconHori"><a href="res/Resume.pdf" id = "icon" class="fa fa-paperclip fa-2x" style="color:#388E3C"></a></div>
-					</div>
-					<hr/>
-						<li><a href="http://williampring.com">Home</a></li>
-						<li><a href="http://williampring.com/aboutme/">About Me</a></li>
-						<li><a href="#">Portfolio</a></li>
-						<li><a href="#">Blog</a></li>
-					</ul>
-		</nav>
-		</header>
-		<div class="large-12 columns">
-		<h1>About Me</h1>
-	</div>
-	<div class="large-12 large-centered columns text-center">
-		<div class = "AboutMeText">
-			<p>I am a second year Software Engineering Technology student in Conestoga
-				College Institute of Technology and Advanced Learning. I have a lot of passion
-				in my chosen profession as I have many different side projects and have competed
-				in various programming competitions. I take pride in creating efficient and well designed program.
-				I consider myself to have a strong background in C++, C#, C and Data Structures. As much as I
-				enjoy programming I love talking and reading about project management, design patterns and design architectures.
-				I have a strong understanding of the SDLC, Agile/Waterfall Methodology and creating technical documents/diagram.
-			</p>
-		</div>
-	</div>
-		<div class="CollectionOfSkills">
-			<div class = "ImgSoftDev">
-				<img class="MoveUp" src = "../res/badge-code.png"></img>
-				<p class = "ContentForSkills">Software Development</p>
-			</div>
-			<div class = "ImgWebDev">
-				<img class="MoveUp" src = "../res/badge-web.png"></img>
-				<p class = "ContentForSkills">Web Development</p>
-			</div>
-			<div class = "ImgAndrDev">
-				<img class="MoveUp" src = "../res/badge-android.png"></img>
-				<p class = "ContentForSkills">Andriod Development</p>
-			</div>
-			<div class = "ImgDesign">
-				<img class="MoveUp" src = "../res/badge-design.png"></img>
-				<p class = "ContentForSkills">Design Patterns</p>
-			</div>
-		</div>
-		<div class ="FunFact1">
-			<div class = "Fact1">
-					<h2>Fun Fact #1</h2>
-					<p>When I was younger, I was very interested in business. This passion of mine lead to me making small investments
-						in the stock market. I had many good and bad investment mainly because I was still learning and trying to find
-						which industry I would like to invest the most. I invested in companies such as Apple, Micosoft, Caterpillar and
-						McDonolds. But, my successful investment was investing in Micosoft shares in 2011.
-					</p>
-			</div>
-		</div>
-		<div class = "Award">
-			<h2> ACHIEVEMENT</H2>
-				<p id = "DetailOfAc">Placed 1st in Conestoga 2016 4x4 Challenge</p>
-				<p id = "DetailOfAc">Conestoga Centre for Entrepreneurship - New Venture Oppertinity Prize</p>
-				<p id = "DetailOfAc">Code To Win Finalist</p>
-		</div>
-		<div class ="FunFact1">
-			<div class = "Fact1">
-					<h2>Fun Fact #2</h2>
-					<p>When I am not doing school work or side projects, I enjoy watching anime a lot for many different reason.
-						I enjoy watching a different medium that is able to convey a emotional and brilliant story or scene with just drawings.
-						My favorite genre for anime is Action, Fantasy, Adventure, and Mystery.
-						My favorite anime are Fullmetal Alchemist Brotherhood, Sword Art Online, Psycho-Pass and Stien Gate and Spirited Away.
-						These are not order in any particular way.
-					</p>
-			</div>
-	</div>
-	<div class = "Award">
-		<h2>Education</h2>
-			<p id= DetailOfAc>Conestoga College Institute of Technology and Advanced Learning	</p>
-			<p id= DetailOfAc>Software Engineering Technology - Co-op</p>
-			<p>GPA: 3.64</p>
-		</div>
-<script src = "https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-<script src="https://use.fonticons.com/f1345c0b.js"></script>
-			<script>
-				(function () {
-						var body = $('body');
-						$('.menu-toggle').bind('click', function() {
-							body.toggleClass('menu-open');
-							$("navigation").show();
-							return false;
-						});
-				})();
-			</script>
-			<script src="../js/vendor/jquery.min.js"></script>
-			<script src="../js/vendor/what-input.min.js"></script>
-			<script src="../js/foundation.min.js"></script>
-			<script src="../js/app.js"></script>
-	</body>
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>William Pring</title>
+        <link rel="stylesheet" href="../stylesheets/app.css" />
+    <script src="../bower_components/modernizr/modernizr.js"></script>
+    <link rel="stylesheet" type="text/css" href="../stylesheets/sidebar.css" />
+    <link rel="stylesheet" type="text/css" href="../stylesheets/aboutme.css" />
+  </head>
+  <body>
+    <body class = "menu">
+  		<header>
+  			<!--Menu Toogle-->
+  			<a herf="#" class ="menu-toggle">&#9776;</a>
+  			<ul class="side-nav">
+  				<nav class = "menu-side">
+  					<div id="LogoForNavBar">&nbsp;</div>
+  					<div class = "centerFirstNavBar">
+  							<div class="IconHori"><a href="https://github.com/WilliamPring" id = "icon" class="fa fa-github-square fa-2x" style="color:#111111"></a></div>
+  							<div class="IconHori"><a href="https://ca.linkedin.com/in/william-pring-6a273aa1" id = "icon" class="fa fa-linkedin fa-2x" style="color:#007bb6"></a></div>
+  							<div class="IconHori"><a href="mailto:wp@williampring.com" id = "icon" class="fa fa-envelope-o fa-2x" style="color:#616161"></a></div>
+  							<div class="IconHori"><a href="res/Resume.pdf" id = "icon" class="fa fa-paperclip fa-2x" style="color:#388E3C"></a></div>
+  					</div>
+  					<hr/>
+  						<li><a href="http://williampring.com">Home</a></li>
+  						<li><a href="http://williampring.com/aboutMe/">About Me</a></li>
+  						<li><a href="#">Portfolio</a></li>
+  						<li><a href="#">Blog</a></li>
+  					</ul>
+  		</nav>
+  		</header>
+  		<div class="large-12 columns">
+  		<h1>About Me</h1>
+  	</div>
+  	<div class="row">
+  		<div class="small-10 small-centered columns">
+  			<div class = "AboutMeText">
+  				<p>I am a second year Software Engineering Technology student in Conestoga
+  					College Institute of Technology and Advanced Learning. I have a lot of passion
+  					in my chosen profession as I have many different side projects and have competed
+  					in various programming competitions. I take pride in creating efficient and well designed program.
+  					I consider myself to have a strong background in C++, C#, C and Data Structures. As much as I
+  					enjoy programming I love talking and reading about project management, design patterns and design architectures.
+  					I have a strong understanding of the SDLC, Agile/Waterfall Methodology and creating technical documents/diagram.
+  				</p>
+  			</div>
+  		</div>
+  	</div>
+    <div class="row">
+      <div class="small-12 small-centered columns">
+  		<div class="CollectionOfSkills">
+  			<div class = "ImgSoftDev">
+  				<img class="MoveUp" src = "../res/badge-code.png"></img>
+  				<p class = "ContentForSkills">Software Development</p>
+  			</div>
+  			<div class = "ImgWebDev">
+  				<img class="MoveUp" src = "../res/badge-web.png"></img>
+  				<p class = "ContentForSkills">Web Development</p>
+  			</div>
+  			<div class = "ImgAndrDev">
+  				<img class="MoveUp" src = "../res/badge-android.png"></img>
+  				<p class = "ContentForSkills">Andriod Development</p>
+  			</div>
+  			<div class = "ImgDesign">
+  				<img class="MoveUp" src = "../res/badge-design.png"></img>
+  				<p class = "ContentForSkills">Design Patterns</p>
+  			</div>
+  		</div>
+      </div>
+    </div>
+    <div backgroundcolor:white;>
+  		<div class ="FunFact1">
+  			<div class = "Fact1">
+  					<h2>Fun Fact #1</h2>
+  					<p>When I was younger, I was very interested in business. This passion of mine lead to me making small investments
+  						in the stock market. I had many good and bad investment mainly because I was still learning and trying to find
+  						which industry I would like to invest the most. I invested in companies such as Apple, Micosoft, Caterpillar and
+  						McDonolds. But, my successful investment was investing in Micosoft shares in 2011.
+  					</p>
+  			</div>
+  		</div>
+  		<div class = "Award">
+  			<h2>Education</h2>
+  				<p id= DetailOfAc>Conestoga College Institute of Technology and Advanced Learning	</p>
+  				<p id= DetailOfAc>Software Engineering Technology - Co-op</p>
+  				<p>GPA: 3.64</p>
+  			</div>
+  		<div class ="FunFact1">
+  			<div class = "Fact1">
+  					<h2>Fun Fact #2</h2>
+  					<p>When I am not doing school work or side projects, I enjoy watching anime.
+  						I enjoy watching a different medium that is able to convey a emotional and brilliant story or scene with just drawings.
+  						My favorite genre are Action, Fantasy, Adventure, and Mystery.
+  						My favorite anime series are Fullmetal Alchemist Brotherhood, Sword Art Online, Psycho-Pass and Stien Gate and Spirited Away.
+  					</p>
+  			</div>
+  	</div>
+  	<div class = "Award">
+  				<h2> ACHIEVEMENT</H2>
+  					<p id = "DetailOfAc">Placed 1st in Conestoga 2016 4x4 Challenge</p>
+  					<p id = "DetailOfAc">Conestoga Centre for Entrepreneurship - New Venture Oppertinity Prize</p>
+  					<p id = "DetailOfAc">Code To Win Finalist</p>
+  			</div>
+
+  </div>
+        <script src = "https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+        <script src="https://use.fonticons.com/f1345c0b.js"></script>				<script>
+          (function () {
+              var body = $('body');
+              $('.menu-toggle').bind('click', function() {
+                body.toggleClass('menu-open');
+                $("navigation").show();
+                return false;
+              });
+          })();
+        </script>
+    <script src="../bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="../bower_components/foundation/js/foundation.min.js"></script>
+    <script src="../js/app.js"></script>
+  </body>
 </html>

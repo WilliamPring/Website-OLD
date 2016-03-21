@@ -1,0 +1,115 @@
+$backgroundcolor: #009688;
+$marginRightForIcon:0px;
+$widthForSceen:100%;
+$skillWidth: 76%;
+$title: 35px;
+h1 {
+  text-align: center;
+  font-size:370%;
+  color: white;
+}
+
+body {
+  background: $backgroundcolor;
+
+}
+
+.ImgAndrDev{
+  display: inline-block;
+  margin-right: $marginRightForIcon;
+
+}
+.ImgDesign{
+  display: inline-block;
+  margin-right: $marginRightForIcon;
+}
+.ImgSoftDev{
+  display: inline-block;
+  margin-right: $marginRightForIcon;
+
+}
+
+.ImgWebDev{
+  display: inline-block;
+  margin-right: $marginRightForIcon;
+
+}
+
+p {
+  text-align:center;
+  font-size: 18px;
+}
+
+
+
+div {
+  display: block;
+
+}
+
+
+h2{
+  font-size: $title;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: -0.02em;
+  margin-top: 4%;
+  font-weight: bold;
+}
+
+.Award{
+  text-align:center;
+  padding-bottom: 10px;
+}
+
+
+
+.FunFact1 {
+  background-color: #eeeee9;
+  padding: 3% 18%;
+}
+
+.ContentForSkills{
+  max-width: $widthForSceen;
+  visibility:hidden;
+  margin-top:0px;
+  margin-bottom: 0px;
+  -webkit-filter: drop-shadow(4px 6px 0 rgba(0, 0, 0, 0.2));
+  filter: drop-shadow(4px 6px 0 rgba(0, 0, 0, 0.2));
+  font-weight: bold;
+  color:white;
+}
+
+.AboutMeText {
+  padding-top: 100px;
+  font-size: 20px;
+  font-weight: 300;
+  margin: auto;
+  text-align: center;
+  max-width: 980px;
+  color: rgba(255, 255, 255, 0.9);
+}
+.CollectionOfSkills{
+  margin-top: 40px;
+  text-align:center;
+  width: $widthForSceen;
+}
+
+.MoveUp{
+  width: $skillWidth;
+  height: auto;
+    &:hover{
+        -moz-transform: translate(0px, -40px);
+        -ms-transform: translate(0px, -40px);
+        -o-transform: translate(0px, -40px);
+        -webkit-transform: translate(0px, -40px);
+        transform: translate(0px, -40px);
+        transition-duration: 0.12s;
+  }
+}
+.MoveUp:hover ~ .ContentForSkills{
+  position: relative;
+  top: -40px;
+  visibility:visible;
+}
