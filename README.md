@@ -1,17 +1,17 @@
 # My Website
 
-##Technology: Compass, Node.js, Bower, Grunt
-##Framework: Foundation
-##Database: MySQL
-##Server:Ubuntu
+Technology: Compass, Node.js, Bower, Grunt </br>
+Framework: Foundation </br>
+Database: MySQL </br>
+Server:Ubuntu </br>
 
 Williampring.com
 
 #Status of Website
-Logo: Finish
-Home Page: Finish
-Toggle Bar: In progress
-About Me: Finish
-Portfolio: In progress
-Blog: Have Not Started
-Tutorial: Have Not Started
+Logo: Finish </br>
+Home Page: Finish </br>
+Toggle Bar: In progress </br>
+About Me: Finish </br>
+Portfolio: In progress </br>
+Blog: Have Not Started </br>
+Tutorial: Have Not Started </br>
