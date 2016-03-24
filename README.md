@@ -1,11 +1,10 @@
-# My Website
+# My Website | Williampring.com
 
 Technology: Compass, Node.js, Bower, Grunt </br>
 Framework: Foundation </br>
 Database: MySQL </br>
 Server:Ubuntu </br>
 
-Williampring.com
 
 #Status of Website
 Logo: Finish </br>
