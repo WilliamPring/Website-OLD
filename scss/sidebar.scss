@@ -19,6 +19,16 @@ a {
 	height: 100%;
 }
 
+@-webkit-keyframes anim {
+    from {-webkit-transform: rotateY(0deg);}
+    to {-webkit-transform: rotateY(360deg);}
+}
+
+@keyframes anim {
+    from {transform: rotateY(360deg);}
+    to {transform: rotateY(0deg);}
+}
+
 /* Transistion */
 .menu-side, .menu {
 	 -webkit-transition : left 0.6s ease;

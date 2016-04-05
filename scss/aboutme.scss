@@ -14,11 +14,16 @@ body {
 
 }
 
+.logoConestoga{
+  margin-bottom: 20px;
+}
+
 .ImgAndrDev{
   display: inline-block;
   margin-right: $marginRightForIcon;
 
 }
+
 .ImgDesign{
   display: inline-block;
   margin-right: $marginRightForIcon;
@@ -46,7 +51,9 @@ div {
   display: block;
 
 }
-
+.EDU{
+  margin-bottom: 15px;
+}
 
 h2{
   font-size: $title;
@@ -66,7 +73,7 @@ h2{
 
 
 .FunFact1 {
-  background-color: #eeeee9;
+  background-color: rgba(255, 255, 255, 0.9);
   padding: 3% 18%;
 }
 
@@ -94,6 +101,11 @@ h2{
   margin-top: 40px;
   text-align:center;
   width: $widthForSceen;
+}
+
+.SET{
+  font-size: 150%;
+  margin-bottom: 0px;
 }
 
 .MoveUp{
