@@ -30,18 +30,65 @@ header .header-content .inner h5 {
 header .header-content .inner .additional-info a{
     color: #F5F5F5;
 }
+.AboutMe{
+  margin-bottom: 15px;
+}
 
 
-/*
 header .header-content .inner p {
     margin-bottom: 50px;
     font-size: 16px;
-    font-weight: 300;    border: 10px solid transparent;
+    font-weight: 300;
+    border: 10px solid transparent;
 
 }
+
+/*
+Start of the about me
+*/
+.CollectionOfSkills div{
+  display: inline-block;
+  margin-right: 40px;
+}
+
+.ContentForSkills{
+  visibility:hidden;
+  margin-top:0px;
+  margin-bottom: 0px;
+  font-weight: bold;
+}
+
+
+.CollectionOfSkills{
+  margin-top: 40px;
+  text-align:center;
+}
+
+.MoveUp{
+  height: 125px;
+  width: 125px;
+  transition: transform 1.5s cubic-bezier(0.4, 0.0, 0.2, 1);
+
+}
+.MoveUp:hover{
+      -moz-transform: translate(0px, -45px);
+      -ms-transform: translate(0px, -45px);
+      -o-transform: translate(0px, -45px);
+      -webkit-transform: translate(0px, -45px);
+          transition-duration: 0.12s;
+}
+
+
+.MoveUp:hover ~ .ContentForSkills{
+  position: relative;
+  top: -40px;
+  visibility:visible;
+}
+
+/*
+End of the about me
 */
 @media(min-width:34em) {
-
     header {
         min-height: 100%;
     }
@@ -74,19 +121,23 @@ header .header-content .inner p {
         line-height: 90px;
     }
 
+      header .header-content .inner p {
+          margin-right: auto;
+          margin-left: auto;
+          max-width: 100%;
+          font-size: 18px;
+      }
 
-/*
-    header .header-content .inner p {
-        margin-right: auto;
-        margin-left: auto;
-        max-width: 100%;
-        font-size: 18px;
-    }
-    */
     section {
         min-height: 600px;
         padding: 100px 0;
+        transition: opacity .6s;
+        transition-delay:.2s;
     }
-
+   
+.CollectionOfSkills div{
+  display: inline-block;
+  margin-right: 10px;
 }
 
+}
