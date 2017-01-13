@@ -84,6 +84,36 @@ Start of the about me
   top: -40px;
   visibility:visible;
 }
+/*
+    Circle start
+*/
+.scroll-down{
+   position: absolute;
+    width: 100%;
+    top: 90%;
+
+    
+}
+
+.scroll-down a i{
+    color: white;
+    height: 50px;
+    width: 50px;
+    border: 2px solid white;
+    border-radius: 100% !important;
+    line-height: 50px;
+    padding: 0;
+    letter-spacing: normal;
+    font-size: 30px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+/*
+    Circle End
+*/
+
 
 /*
 End of the about me
