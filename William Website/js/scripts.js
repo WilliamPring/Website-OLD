@@ -31,10 +31,7 @@ function scrollTo(element, to, duration) {
         var difference = to - element.scrollTop;
         var perTick = difference / duration * 10;
         setTimeout(function() {
-            console.log(element.scrollTop);
             element.scrollTop = element.scrollTop + perTick;
-                        console.log(element.scrollTop);
-
             if (element.scrollTop === to) return;
             scrollTo(element, to, duration - 10);
         }, 10);
