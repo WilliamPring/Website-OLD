@@ -42,7 +42,9 @@ header .header-content .inner p {
     border: 10px solid transparent;
 
 }
-
+#two{
+    background-color: #EFEFEE;
+}
 /*
 Start of the about me
 */
@@ -91,7 +93,6 @@ Start of the about me
    position: absolute;
     width: 100%;
     top: 90%;
-
     
 }
 
@@ -112,6 +113,45 @@ Start of the about me
 
 /*
     Circle End
+*/
+/*
+Start of Cards css
+*/
+.custom-card {
+  background-color:#fafafa;
+  border-radius: 2px;
+  display: inline-block;
+  height: 300px;
+  margin: 1rem;
+  position: relative;
+  width: 300px;
+}
+
+
+.card-5 {
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+.supporting-text{
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 13px;
+     background-color:#fafafa;
+}
+.custom-card-group{
+    display: flex;
+    justify-content: center; /* align horizontal */
+}
+.media-area{
+    text-align: center;
+        background-color: #bdbdbd;
+}
+
+
+/*
+Start of Cards css
 */
 
 
@@ -165,9 +205,9 @@ End of the about me
         transition-delay:.2s;
     }
    
-.CollectionOfSkills div{
-  display: inline-block;
-  margin-right: 10px;
-}
+    .CollectionOfSkills div {
+    display: inline-block;
+    margin-right: 10px;
+    }
 
 }

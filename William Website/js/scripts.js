@@ -14,27 +14,41 @@ $(document).ready(function(){
      });
 });
 */
+window.addEventListener("scroll", scrollingPage, false);
 
 document.getElementsByClassName("page-scroll")[0].addEventListener("click", function(){
     element = document.getElementById("one");
     scrollTo(document.body, element.offsetTop, 800);
 });
 
+function scrollingPage(e) {
+    // do epic stuff    
+}
 
-function scrollTo(element, to, duration) {
+
+function scrollTo(from, to, duration) {
     if (duration <= 0)
     {
         return;
     }
     else
     {
-        var difference = to - element.scrollTop;
-        var perTick = difference / duration * 10;
+        //alert("To: " + to + " From: " +from.scrollTop);
+        var difference = to - from.scrollTop;
+        //alert("Difference"+ difference + " Duration: " + duration);
+        //        var perTick = (difference / duration) * 10;
+        var perTick = (difference / duration) * 12;
+       //alert("perTick"+ perTick);
         setTimeout(function() {
-            element.scrollTop = element.scrollTop + perTick;
-            if (element.scrollTop === to) return;
-            scrollTo(element, to, duration - 10);
-        }, 10);
+            from.scrollTop = from.scrollTop + perTick;
+            if (from.scrollTop === to) 
+            {
+                return;
+            }
+            else{            
+                scrollTo(from, to, duration - 8);
+            }
+        }, 12);
     }
     
 }
