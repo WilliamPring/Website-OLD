@@ -15,8 +15,7 @@ $(document).ready(function(){
 });
 */
 window.addEventListener("scroll", scrollingPage, false);
-
-document.getElementsByClassName("page-scroll")[0].addEventListener("click", function(){
+document.getElementsByClassName("page-scroll")[0].addEventListener("click", function () {
     element = document.getElementById("one");
     scrollTo(document.body, element.offsetTop, 800);
 });
