@@ -1,6 +1,7 @@
-body{
-font-family: 'Raleway', sans-serif;
+body {
+    font-family: 'Raleway', sans-serif;
 }
+
 header {
     position: relative;
     min-height: auto;
@@ -27,22 +28,24 @@ header .header-content .inner h1 {
 header .header-content .inner h5 {
     color: #EFEFEF;
 }
-header .header-content .inner .additional-info a{
+
+header .header-content .inner .additional-info a {
     color: #F5F5F5;
 }
-.AboutMe, .Profolio{
-  margin-bottom: 15px;
-}
 
+.AboutMe,
+.Profolio {
+    margin-bottom: 15px;
+}
 
 header .header-content .inner p {
     margin-bottom: 50px;
     font-size: 16px;
     font-weight: 300;
     border: 10px solid transparent;
-
 }
-#two{
+
+#two {
     background-color: #EFEFEE;
 }
 
@@ -50,55 +53,57 @@ header .header-content .inner p {
 /*
 Start of the about me
 */
-.CollectionOfSkills div{
-  display: inline-block;
-  margin-right: 40px;
+
+.CollectionOfSkills div {
+    display: inline-block;
+    margin-right: 40px;
 }
 
-.ContentForSkills{
-  visibility:hidden;
-  margin-top:0px;
-  margin-bottom: 0px;
-  font-weight: bold;
+.ContentForSkills {
+    visibility: hidden;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
+.CollectionOfSkills {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.MoveUp {
+    height: 125px;
+    width: 125px;
+    transition: transform 1.5s cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+.MoveUp:hover {
+    -moz-transform: translate(0px, -45px);
+    -ms-transform: translate(0px, -45px);
+    -o-transform: translate(0px, -45px);
+    -webkit-transform: translate(0px, -45px);
+    transition-duration: 0.12s;
+}
+
+.MoveUp:hover~.ContentForSkills {
+    position: relative;
+    top: -40px;
+    visibility: visible;
 }
 
 
-.CollectionOfSkills{
-  margin-top: 40px;
-  text-align:center;
-}
-
-.MoveUp{
-  height: 125px;
-  width: 125px;
-  transition: transform 1.5s cubic-bezier(0.4, 0.0, 0.2, 1);
-
-}
-.MoveUp:hover{
-      -moz-transform: translate(0px, -45px);
-      -ms-transform: translate(0px, -45px);
-      -o-transform: translate(0px, -45px);
-      -webkit-transform: translate(0px, -45px);
-          transition-duration: 0.12s;
-}
-
-
-.MoveUp:hover ~ .ContentForSkills{
-  position: relative;
-  top: -40px;
-  visibility:visible;
-}
 /*
     Circle start
 */
-.scroll-down{
-   position: absolute;
+
+.scroll-down {
+    position: absolute;
     width: 100%;
     top: 90%;
-     cursor: pointer;
+    cursor: pointer;
 }
 
-.scroll-down a i{
+.scroll-down a i {
     color: white;
     height: 50px;
     width: 50px;
@@ -111,38 +116,66 @@ Start of the about me
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
     transition: all 0.5s;
+    
 }
+
 
 /*
     Circle End
 */
+
+
 /*
 Start of Cards css
 */
+
 .custom-card {
-  background-color:#fafafa;
+    background-color: #fafafa;
+    border-radius: 2px;
+    display: inline-block;
+    height: 400px;
+    margin: 1rem;
+    position: relative;
+    width: 300px;
+}
+.education-card {
+  background: #fff;
   border-radius: 2px;
   display: inline-block;
-  height: 400px;
+  height: 600px;
   margin: 1rem;
   position: relative;
-  width: 300px;
+  width: 100%;
 }
+.education {
+    padding-top: 25px;
+    padding-right: 12px;
+    padding-bottom:0px;
+    margin-bottom: 0px;
+    color: #afb2b5;
+}
+
 
 .card-5 {
-  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
 }
 
-.primary-text{
+.card-2 {
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.primary-text {
     padding-left: 12px;
     padding-right: 12px;
     padding-top: 14px;
     padding-bottom: 0px;
     font-size: 20px;
 }
-.primary p{
+
+.primary p {
     padding-bottom: 0px;
 }
+
 .sub-text {
     padding-left: 12px;
     padding-right: 12px;
@@ -150,50 +183,52 @@ Start of Cards css
     font-size: 14px;
     color: #757575;
 }
-.primary-text p{
-        margin-bottom: 1rem;
+
+.primary-text p {
+    margin-bottom: 1rem;
 }
 
-.media-area{
+.media-area {
     text-align: center;
     background-color: #bdbdbd;
 }
 
-.media-area img{
-    margin-top:12px;
-    margin-bottom:12px;
-    height: 40%; 
+.media-area img {
+    margin-top: 12px;
+    margin-bottom: 12px;
+    height: 40%;
     object-fit: contain;
 }
-
 
 .card-content p {
     margin-bottom: 0px;
 }
-.support-text{
+
+.support-text {
     padding-left: 12px;
     padding-right: 12px;
     padding-bottom: 12px;
     font-size: 14px;
 }
+
 .action-bar .card-button {
- background-color: Transparent;
+    background-color: Transparent;
     border: none;
     outline: none;
     position: relative;
     display: inline-block;
     padding: 0 16px;
-     cursor: pointer;
+    cursor: pointer;
     line-height: 52px;
     color: #FF1744;
-
 }
-.action-bar{
+
+.action-bar {
     display: block;
     height: 1px;
     border: 0;
     border-top: 1px solid #E0E0E0;
-        margin: 1em 0;
+    margin: 1em 0;
     padding: 0;
 }
 
@@ -202,17 +237,31 @@ Start of Cards css
 End of Cards css
 */
 
+.primary-education-text {
+    padding-top: 14px;
+    font-size: 20px;
+}
+.sub-education-text {
+    padding-right: 12px;
+    font-size: 18px;
+    color: #757575;
+}
 
-
+.activites, .description {
+    font-size: 16px;
+    line-height: 17px;
+    color: #66696a;
+    margin-bottom: 0px;
+}
 
 /*
 End of the about me
 */
+
 @media(min-width:34em) {
     header {
         min-height: 100%;
     }
-
     header .header-content {
         position: absolute;
         top: 50%;
@@ -221,16 +270,14 @@ End of the about me
         -ms-transform: translateY(-50%);
         transform: translateY(-50%);
     }
-
     header .header-content .inner {
         margin-right: auto;
         margin-left: auto;
         max-width: 1000px;
     }
-  header .header-content .inner .additional-info a{
-        padding-right:30px;
+    header .header-content .inner .additional-info a {
+        padding-right: 30px;
     }
-
     header .header-content .inner h1 {
         font-size: 6em;
         letter-spacing: 0.11em;
@@ -240,24 +287,20 @@ End of the about me
         font-size: 2em;
         line-height: 90px;
     }
-
-      header .header-content .inner p {
-          margin-right: auto;
-          margin-left: auto;
-          max-width: 100%;
-          font-size: 18px;
-      }
-
+    header .header-content .inner p {
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 100%;
+        font-size: 18px;
+    }
     section {
         min-height: 600px;
         padding: 100px 0;
         transition: opacity .6s;
-        transition-delay:.2s;
+        transition-delay: .2s;
     }
-   
     .CollectionOfSkills div {
-    display: inline-block;
-    margin-right: 10px;
+        display: inline-block;
+        margin-right: 10px;
     }
-
 }
