@@ -29,3 +29,8 @@ function scrollTo(from, to, duration) {
     }
     
 }
+
+ function submitForm()
+ {
+
+ }

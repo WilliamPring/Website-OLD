@@ -123,48 +123,52 @@ Start of the about me
 /*
     Circle End
 */
+    /* Misc */
+    .center {
+      text-align: center;
+    }
 
+    
 
+/*
+    Buttons 
+*/
+ .button.raised  {
+      display: inline-block;
+      position: relative;
+      width: 120px;
+      height: 32px;
+      line-height: 32px;
+      border-radius: 2px;
+      font-size: 0.9em;
+      background-color: #fff;
+      color: #646464;
+    }
+    
+    .button > paper-ripple {
+      border-radius: 2px;
+      overflow: hidden;
+    }
 
-.enter-contact-card div{
-    display: inline-block;
-
-}
-
-.contact-title{
-text-align: center;
-box-sizing: border-box;
-width: 100%;
-  background: #03A9F4;
-  padding: 20px;
-  color: white;
-  box-shadow: 0 5px 5px 0 rgba(0,0,0,0.05);
-  border-radius: 3px 3px 0 0;
-}
-.contact-card input, .contact-card div textarea{
-  border: none;
-  border-bottom: solid 1px #03A9F4;
-  margin: 25px 25px 10px;
-  width: 90%;
-  display: block;
-  padding: 20px 0 10px;
-
-}
-.sendMail {
-  font-family: 'roboto', sans-serif;
-  transition: transform 0.2s cubic-bezier(.64,.09,.08,1),
-     box-shadow 0.2s cubic-bezier(.64,.09,.08,1);
-  border: none;
-  background: #03A9F4;
-  cursor: pointer;
-  border-radius: 3px;
-  padding: 6px;
-  width: 90%;
-  color: white;
-  margin: 30px 0 0 25px;
-  box-shadow: 0 3px 6px 0 rgba(0,0,0,0.2);
-  
-}
+    
+    .button.green {
+      background-color: #0f9d58;
+      color: #fff;
+    }
+     .button.blue {
+      background-color: #4285f4;
+      color: #fff;
+    }
+    .button.raised {
+      transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+      transition-delay: 0.2s;
+      box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+    }
+    
+    .button.raised:active {
+      box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2);
+      transition-delay: 0s;
+    }
 
 /*
 Start of Cards css
@@ -183,15 +187,35 @@ Start of Cards css
     margin-bottom:16px;
 }
 .contact-card {
-  background: #fff;
-  border-radius: 2px;
-  height: 600px;
-  margin: 1rem;
-  position: relative;
-  width: 80%;
-  margin: auto;  
+   background-color: #fafafa;
+    border-radius: 2px;
+    display: inline-block;
+    height: 750px;
+    margin: 1rem;
+    position: relative;
+    width: 100%;
 
 }
+.contact-card-header{
+    background-color:#6b75b9;
+   padding-top: 16px;
+    padding-bottom: 16px;
+}
+.contact-card h2{
+ margin-left: 25px;
+ color: ghostwhite;
+}
+.contact-card-form .input{
+        display: inline-block;
+
+}
+.controls{
+    margin-top:50px;
+}
+.form-row{
+    margin-bottom: 20px;
+}
+
 .subcategory {
     padding-top: 25px;
     padding-right: 12px;
@@ -199,7 +223,10 @@ Start of Cards css
     margin-bottom: 0px;
     color: #afb2b5;
 }
-
+.contact-card h6{
+ margin-left: 25px;
+    color:whitesmoke;
+    }
 .card-3 {
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
@@ -223,6 +250,7 @@ Start of Cards css
 .primary p {
     padding-bottom: 0px;
 }
+
 
 .sub-text {
     padding-left: 12px;
@@ -278,6 +306,9 @@ Start of Cards css
     /* padding: 0; */
     /* max-height: 2px; */
 }
+
+
+
 /*
 End of Cards css
 */
