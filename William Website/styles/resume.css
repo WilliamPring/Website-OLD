@@ -20,7 +20,7 @@ div {
     display: block;
 }
 
-.education {
+.education, .honors-awards, .skills-set {
     font-size: 1.25em;
     width: 300px;
      border-color: transparent; 
@@ -35,6 +35,9 @@ ul{
     margin-top: 8px;
     margin-bottom:8px;
 }
+img {
+    margin-bottom: 1.25px;
+}
 .job-title-company{
     font-size: .80em;
 }
@@ -44,20 +47,58 @@ ul{
 .job-detail{
     margin-top: 5px;
     font-size: .9em;
+}
+.awards-detail{
+        font-size: .8em;
+}
+
+.projects{
+    width: 800px;
+        font-size: 1.25em;
 
 }
-.manulife, .myprohero{
+.project-left{
+        width: 400px;
+}
+.manulife, .myprohero, .d2l{
     margin-top: 5px;
 }
 .sub-education-text {
-        display: inline-block;
+    display: inline-block;
     padding-right: 12px;
     font-size: 17px;
     color: #757575;
-    margin-bottom: 10px;
+}
+.left-list{
+    width: 150px;
+    display: inline-block;
+}
+.right-list{
+    float:right;
+    width: 150PX;
+}
+.right-list ul{
+    padding: 0px;
+    padding-left:10px;
+}
+
+.left-list ul{
+    padding: 0px;
+    padding-left:20px;
+
 }
 #title-text{
     color: #333;
+}
+.body-info span{
+    display: inline-block;
+}
+#awards-top{
+    margin-top: 5px;
+}
+.award-date{
+        color: #757575;
+        font-size: .75em;
 }
 .header-left{
     display: inline-block;
