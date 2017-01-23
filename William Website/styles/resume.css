@@ -52,7 +52,7 @@ img {
         font-size: .8em;
 }
 
-.projects{
+.projects, .summary{
     width: 800px;
         font-size: 1.25em;
 

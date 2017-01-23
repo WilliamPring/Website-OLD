@@ -29,10 +29,14 @@ header .header-content .inner h5 {
     color: #EFEFEF;
 }
 
-header .header-content .inner .additional-info a {
-    color: #F5F5F5;
+a:focus, a:hover {
+    text-decoration: none; 
 }
-
+header .header-content .inner .additional-info a:hover {
+     background-color: #E4F5F8;
+    border: 1px solid #C0DEED; 
+    text-decoration: none !important;;
+}
 .AboutMe,
 .Profolio {
     margin-bottom: 15px;
