@@ -29,14 +29,10 @@ header .header-content .inner h5 {
     color: #EFEFEF;
 }
 
-a:focus, a:hover {
-    text-decoration: none; 
+header .header-content .inner .additional-info a {
+    color: #F5F5F5;
 }
-header .header-content .inner .additional-info a:hover {
-     background-color: #E4F5F8;
-    border: 1px solid #C0DEED; 
-    text-decoration: none !important;;
-}
+
 .AboutMe,
 .Profolio {
     margin-bottom: 15px;
@@ -278,7 +274,6 @@ Start of Cards css
 }
 .card-content p {
     margin-bottom: 0px;
-    
 }
 .support-text {
     padding-left: 12px;
@@ -295,7 +290,11 @@ Start of Cards css
     padding: 0 16px;
     cursor: pointer;
     line-height: 52px;
+    /* max-height: 2px; */
     color: #FF1744;
+    /* position: fixed; */
+    /* bottom: 0px; */
+    /* right: 0px; */
 }
 
 .action-bar {
@@ -304,7 +303,8 @@ Start of Cards css
     border: 0;
     border-top: 1px solid #E0E0E0;
     margin: 1px 0;
-
+    /* padding: 0; */
+    /* max-height: 2px; */
 }
 
 
