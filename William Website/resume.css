@@ -1,0 +1,170 @@
+body {
+    background-color: #37474F;
+
+}
+
+#single-page {
+    width: 800px;
+    background-color: #eee;
+    margin: 0 auto;
+    padding: 50px 50px;
+}
+
+.fullName{
+    font-family: 'Oleo Script', cursive;
+    color: #22405c;
+    font-size: 3em;
+}
+
+
+div {
+    display: block;
+}
+
+.education, .honors-awards, .skills-set {
+    font-size: 1.25em;
+    width: 300px;
+     border-color: transparent; 
+       
+}
+.bullet-inbetween{
+        content: "\2022";
+    margin: 0 5px;
+}
+
+ul{
+    margin-top: 8px;
+    margin-bottom:8px;
+}
+img {
+    margin-bottom: 1.25px;
+}
+.job-title-company{
+    font-size: .80em;
+}
+.job-title-metadata{
+         font-size: .9em;
+}
+
+
+#title-text, .fa, .job-title, #award, #school, #project {
+    color: #aa8056;
+}
+
+#company{
+    color: #143452;
+}
+.job-detail{
+    margin-top: 5px;
+    font-size: .9em;
+}
+.awards-detail{
+        font-size: .8em;
+}
+
+.projects, .summary{
+    width: 800px;
+        font-size: 1.25em;
+
+}
+.project-left{
+        width: 400px;
+}
+.manulife, .myprohero, .d2l{
+    margin-top: 5px;
+}
+.sub-education-text {
+    display: inline-block;
+    padding-right: 12px;
+    font-size: 17px;
+    color: #757575;
+}
+.left-list{
+    width: 150px;
+    display: inline-block;
+}
+.right-list{
+    float:right;
+    width: 150PX;
+}
+.right-list ul{
+    padding: 0px;
+    padding-left:10px;
+}
+
+.left-list ul{
+    padding: 0px;
+    padding-left:20px;
+
+}
+
+
+
+.body-info span{
+    display: inline-block;
+}
+#awards-top{
+    margin-top: 5px;
+}
+.award-date{
+        color: #757575;
+        font-size: .75em;
+}
+
+.header-left{
+    display: inline-block;
+    width: 52%;
+    margin: 0 0 0 0;
+    vertical-align: top;
+}
+
+#location,  #field{
+    color: #66696a;
+
+}
+.left-block {
+    display: inline-block;
+    width: 470px;
+}
+.work-experience{
+     font-size: 1.25em;
+     width: 450px;
+     border-color: transparent; 
+}
+.right-block{
+    float: right;
+    width: 330px;
+
+    vertical-align: top;
+    margin: 0;
+    border-width: 0;
+}
+
+#information-divider {
+    display: inline-block;
+    background-color: #66696a;
+    width: 1px;
+    height: 110px;
+    padding: 0;
+    margin: 0 0 0 0;
+}
+
+
+h3{
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+.header-right{
+    float: right;
+    width: 45%;
+}
+
+.header-right div{
+    margin-bottom: 5px;
+}
+
+.work-experience-head, .education-head, .achievements-head, .project-head {
+    color: #143452;
+}
+
