@@ -1,0 +1,15 @@
+menu:
+  Home: /
+  Archives: /archives
+
+# duoshuo comment
+duoshuo: false
+duoshuo_name:
+
+
+# disqus comment
+disqus: true
+disqus_shortname: williampringblog.disqus.com
+
+# google analytics
+googleTrackId: GTM-52Z2VRG
